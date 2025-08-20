@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+
+/* Dark mode styles */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background: linear-gradient(to bottom, #1a1a1a, #2d2d2d, #404040);
+}
+
+.dark nav {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.dark nav a {
+  color: #ffffff !important;
+}
+
+.dark nav a:hover {
+  color: #60a5fa !important;
+}
+
+.dark main {
+  background: linear-gradient(to bottom, #1a1a1a, #2d2d2d, #404040) !important;
+}
+
+.dark section {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.dark h1, .dark h2, .dark h3 {
+  color: #ffffff !important;
+}
+
+.dark p {
+  color: #e5e7eb !important;
+}
+
+.dark .text-gray-700 {
+  color: #e5e7eb !important;
+}
+
+.dark .text-gray-900 {
+  color: #ffffff !important;
+}
+
+.dark footer {
+  background-color: #1a1a1a !important;
+}
+
+.dark .bg-white {
+  background-color: #2d2d2d !important;
+}
+
+.dark .bg-gradient-to-b {
+  background: linear-gradient(to bottom, #1a1a1a, #2d2d2d, #404040) !important;
+}
+
+.dark .from-white {
+  --tw-gradient-from: #1a1a1a !important;
+}
+
+.dark .via-gray-100 {
+  --tw-gradient-via: #2d2d2d !important;
+}
+
+.dark .to-gray-300 {
+  --tw-gradient-to: #404040 !important;
+}
+
+/* Dark mode styles for fetched blogs and comments */
+.dark .bg-white {
+  background-color: #2d2d2d !important;
+}
+
+.dark .hover\:bg-white:hover {
+  background-color: #3a3a3a !important;
+}
+
+.dark .hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Dark mode styles for form elements */
+.dark input, .dark textarea, .dark select {
+  background-color: #3a3a3a !important;
+  border-color: #4a4a4a !important;
+  color: #ffffff !important;
+}
+
+.dark input::placeholder, .dark textarea::placeholder {
+  color: #a0a0a0 !important;
+}
+
+.dark input:focus, .dark textarea:focus, .dark select:focus {
+  border-color: #60a5fa !important;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1) !important;
+}
+
+/* Precise overrides requested */
+/* Feedback cards base and hover in dark mode */
+.dark .bg-gray-200 { background-color: #2d2d2d !important; }
+.dark .hover\:bg-gray-300:hover { background-color: #3a3a3a !important; }
+
+/* FetchedBlogs item hover in dark mode */
+.dark .hover\:bg-gray-100:hover { background-color: #3a3a3a !important; }
+
