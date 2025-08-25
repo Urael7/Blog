@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       {/* Related Blogs Section */}
-      <section className="mt-12">
+      <section className="mt-0">
         <h2 className="text-2xl font-bold text-center mb-6">Related Blogs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a href="https://www.computer.org/publications/tech-news" target="_blank" rel="noopener noreferrer" className="p-4 bg-white shadow rounded hover:shadow-lg transition">
